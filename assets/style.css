@@ -1,0 +1,322 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #152C5B;
+}
+
+li {
+    margin-right: 15px;
+}
+
+.header {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #E5E5E5;
+}
+
+.header h1 {
+    color: #152C5B;
+}
+
+.stay {
+    color: #3252DF;
+}
+
+.firstlist {
+    color: #3252DF;
+}
+
+main .show__me {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: max-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.forget__your {
+    position: relative;
+    margin-right: 300px;
+}
+
+.forget__your h2 {
+    font-size: 42px;
+    color: #152C5B;
+}
+
+.forget__your p {
+    color: #B0B0B0;
+}
+
+.forget__your button {
+    background-color: #3252DF;
+    color: white;
+    border: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 30px;
+}
+
+.travel {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    left: 0;
+}
+
+.travel div {
+    margin-right: 30px;
+}
+
+.travel span {
+    color: #152C5B;
+    font-weight: bold;
+}
+
+.pick h3 {
+    position: relative;
+    color: #152C5B;
+    display: flex;
+    padding-left: 50px;
+    width: max-content;
+}
+
+.house h3 {
+    position: relative;
+    color: #152C5B;
+    display: flex;
+    padding-left: 50px;
+    width: max-content;
+}
+
+.container1 {
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container2 {
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.houset1 {
+    padding-left: 15px;
+    display: flex;
+    justify-content: flex-start;
+    color: #152C5B;
+    align-items: flex-start;
+}
+.abu {
+    color: #B0B0B0;
+}
+
+.ht1 {
+    padding-left: 35px;
+    color: #152C5B;
+}
+
+.ht2 {
+    padding-left: 175px;
+    color: #152C5B;
+}
+
+.ht3 {
+    padding-left: 225px;
+    color: #152C5B;
+}
+
+.ht4 {
+    padding-left: 225px;
+    color: #152C5B;
+}
+
+.hotel h3 {
+    position: relative;
+    color: #152C5B;
+    display: flex;
+    padding-left: 50px;
+    width: max-content;
+}
+
+.container3 {
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hotelt1 {
+    padding-left: 15px;
+    display: flex;
+    justify-content: flex-start;
+    color: #152C5B;
+    align-items: flex-start;
+}
+
+.hot1 {
+    padding-left: 35px;
+    color: #152C5B;
+}
+
+.hot2 {
+    padding-left: 175px;
+    color: #152C5B;
+}
+
+.hot3 {
+    padding-left: 225px;
+    color: #152C5B;
+}
+
+.hot4 {
+    padding-left: 225px;
+    color: #152C5B;
+}
+
+.apart h3 {
+    position: relative;
+    color: #152C5B;
+    display: flex;
+    padding-left: 50px;
+    width: max-content;
+}
+
+.container4 {
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.apst1 {
+    padding-left: 15px;
+    display: flex;
+    justify-content: flex-start;
+    color: #152C5B;
+    align-items: flex-start;
+}
+
+.apt1 {
+    padding-left: 35px;
+    color: #152C5B;
+}
+
+.apt2 {
+    padding-left: 190px;
+    color: #152C5B;
+}
+
+.apt3 {
+    padding-left: 235px;
+    color: #152C5B;
+}
+
+.apt4 {
+    padding-left: 255px;
+    color: #152C5B;
+}
+
+.family {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: max-content;
+    margin-right: auto;
+    margin-left: auto;
+    align-content: space-around;
+}
+.ftext {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: max-content;
+    margin-right: auto;
+    margin-left: auto;
+    align-content: space-around;
+    flex-direction: column;
+}
+
+.happy {
+    color: #152C5B;
+}
+
+.star {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.what {
+    position: relative;
+    color: #152C5B;
+}
+
+.adi {
+    position: relative;
+    color: #152C5B;
+}
+
+.family button {
+    background-color: #3252DF;
+    color: white;
+    border: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 30px;
+}
+
+.inf {
+    display: flex;
+    margin: 50px;
+    justify-content: space-between;
+}
+
+.name h2 {
+    color: #152C5B;
+}
+
+.name p {
+    color: #B0B0B0;
+}
+
+.beginners h3 {
+    color: #152C5B;
+}
+
+.beginners p {
+    color: #B0B0B0;
+}
+
+
+.explore h3 {
+    color: #152C5B;
+}
+
+.explore p {
+    color: #B0B0B0;
+}
+
+.getting h3 {
+    color: #152C5B;
+}
+
+.getting p {
+    color: #B0B0B0;
+}
